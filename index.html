@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>is Palindrome?</title>
+</head>
+<body>
+    <header>
+        <div id="title-section">
+            <h1 id="title">Is it a Palindrome?</h1>
+        </div>
+    </header>
+    <h3>What is a Palindrome?</h3>
+    <p>A palindrome is a word, phrase, or sentence that reads the same backward or forward.<br>
+        Some examples can be:</p>
+    <ul>
+        <li>racecar</li>
+        <li>kayak</li>
+        <li>mom</li>
+    </ul>
+    <br>
+    <p>Now, it's your turn to come up with palindromes!</p>
+    <input id="userWord" type="text" placeholder="Type here" name="text">
+    <input id="submit" type="button" value="check" onclick="isPalindrome()">
+    <p>Result:</p>
+    <p id="result"></p>
+    <script src="index.js"></script>
+</body>
+</html>

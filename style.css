@@ -1,0 +1,25 @@
+body{
+    margin: 0 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 18px;
+    background-color: rgb(253, 253, 253);
+}
+
+#title-section{
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    width: fit-content;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgba(230, 209, 230, 0.116);
+    font-style: italic;
+    font-weight: 500;
+}
